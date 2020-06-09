@@ -5,6 +5,12 @@ body{
     background-repeat: round;
     font-family: 'Press Start 2P', cursive; 
     text-align: center;
+    text-shadow:
+    4px 4px 0 #000,
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
     
 }
 
