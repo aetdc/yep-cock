@@ -13,7 +13,7 @@ function yepCock() {
 
 function updateValues() {
     document.getElementById("cocksYepped").innerHTML = gameData.cock + " COCKS YEPPED"
-    document.getElementById("perClickUpgrade").innerHTML = "Upgrade YEPPER (Currently Level " + gameData.cockPerClick + ") Cost: " + gameData.cockPerClickCost + " COCK(S)"
+    document.getElementById("perClickUpgrade").innerHTML = "Upgrade YEPPER (Currently Level " + gameData.cockPerClick + ") Cost: " + gameData.cockPerClickCost + " COCKS"
 }
 
 function buyCockPerClick() {
