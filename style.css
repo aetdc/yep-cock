@@ -1,0 +1,44 @@
+/* font-family: 'Press Start 2P', cursive; */
+
+body{
+    background-image: url('https://i.imgur.com/8tAynJS.png');
+    font-family: 'Press Start 2P', cursive; 
+    text-align: center;
+    
+}
+
+#cocksYepped{
+    font-size: 50px;
+    color: white;
+    padding-top: 30vh;
+}
+
+#cocksYepped:click{
+    color: blue;
+}
+
+button{
+    background: white;
+    border: 2px solid black;
+    font-family: 'Press Start 2P', cursive;
+    padding: 1.5em 5em;
+}
+
+button:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#perClickUpgrade:hover{
+    animation: buttoncolor 1s infinite;
+}
+
+@keyframes buttoncolor {
+    0%   {background:red;}
+    20%   {background:orange;}
+    40%  {background:yellow;}
+    60%  {background:green;}
+    80%  {background:blue;}
+    100%  {background:purple;}
+  }
